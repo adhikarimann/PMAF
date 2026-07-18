@@ -1,13 +1,17 @@
 import pandas as pd
 
-nfhs = pd.read_csv("data/raw/nfhs.csv")
+# =============================================================================
+# LOAD DATASET
+# =============================================================================
 
+rhs = pd.read_csv("data/raw/rhs.csv")
 
+rhs_2021 = rhs[rhs["Year"] == "Financial Year (Apr - Mar), 2021"]
 
-print("\nUnique States:", nfhs["State"].nunique())
-print("Unique Districts:", nfhs["District"].nunique())
+print(rhs_2021.shape)
 
-print("\nUnique State-District pairs:",nfhs[["State", "District"]].drop_duplicates().shape[0])
+print(rhs_2021.duplicated(subset=["State", "District"]).sum())
 
-print("\nDuplicate State-District pairs:")
-print(nfhs.duplicated(subset=["State", "District"]).sum())
+rhs_2021 = rhs[rhs["Year"] == "Financial Year (Apr - Mar), 2021"]
+
+print(rhs_2021.isnull().sum())
