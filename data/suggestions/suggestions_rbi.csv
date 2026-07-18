@@ -1,0 +1,48 @@
+Dataset,State,Census_District,Suggested_District,Similarity
+RBI,Uttarakhand,Udham Singh Nagar,Udam Singh Nagar,0.97
+RBI,Karnataka,Chamarajanagar,Chamarajanagara,0.966
+RBI,Uttar Pradesh,Siddharthnagar,Siddharth Nagar,0.966
+RBI,Andaman and Nicobar Islands,South Andaman,South Andamans,0.963
+RBI,Odisha,Nabarangapur,Nabarangpur,0.957
+RBI,Uttarakhand,Rudraprayag,Rudra Prayag,0.957
+RBI,Uttar Pradesh,Kushinagar,Kushi Nagar,0.952
+RBI,Uttarakhand,Uttarkashi,Uttar Kashi,0.952
+RBI,Jharkhand,Saraikela-Kharsawan,Saraikela Kharsawan,0.947
+RBI,Karnataka,Davanagere,Davangere,0.947
+RBI,Rajasthan,Jhunjhunun,Jhunjhunu,0.947
+RBI,Uttar Pradesh,Bara Banki,Barabanki,0.947
+RBI,Jammu and Kashmir,Baramula,Baramulla,0.941
+RBI,Karnataka,Bagalkot,Bagalkote,0.941
+RBI,Bihar,Purba Champaran,Purbi Champaran,0.933
+RBI,Chhattisgarh,Janjgir - Champa,Janjgir-Champa,0.933
+RBI,Maharashtra,Buldana,Buldhana,0.933
+RBI,Uttarakhand,Hardwar,Haridwar,0.933
+RBI,West Bengal,Puruliya,Purulia,0.933
+RBI,Maharashtra,Gondiya,Gondia,0.923
+RBI,Meghalaya,Ribhoi,Ri Bhoi,0.923
+RBI,Andaman and Nicobar Islands,North & Middle Andaman,North And Middle Andaman,0.913
+RBI,Rajasthan,Jalor,Jalore,0.909
+RBI,West Bengal,Maldah,Malda,0.909
+RBI,Maharashtra,Ahmadnagar,Ahmednagar,0.9
+RBI,Tamil Nadu,Viluppuram,Villupuram,0.9
+RBI,Jammu and Kashmir,Bandipore,Bandipora,0.889
+RBI,Jharkhand,Sahibganj,Sahebganj,0.889
+RBI,Karnataka,Chikmagalur,Chikkamagaluru,0.88
+RBI,Assam,Morigaon,Marigaon,0.875
+RBI,Rajasthan,Chittaurgarh,Chittorgarh,0.87
+RBI,Tamil Nadu,Kancheepuram,Kanchipuram,0.87
+RBI,Himachal Pradesh,Lahul & Spiti,Lahul And Spiti,0.857
+RBI,Jharkhand,Kodarma,Koderma,0.857
+RBI,Karnataka,Tumkur,Tumakuru,0.857
+RBI,West Bengal,Darjiling,Darjeeling,0.842
+RBI,Meghalaya,Jaintia Hills,East Jaintia Hills,0.839
+RBI,Jammu and Kashmir,Badgam,Budgam,0.833
+RBI,Karnataka,Shimoga,Shivamogga,0.824
+RBI,Punjab,Firozpur,Ferozepur,0.824
+RBI,Andhra Pradesh,Anantapur,Ananthapuramu,0.818
+RBI,Jammu and Kashmir,Shupiyan,Shopian,0.8
+RBI,Karnataka,Bangalore Rural,Bengaluru Rural,0.8
+RBI,Mizoram,Saiha,Siaha,0.8
+RBI,Odisha,Baudh,Boudh,0.8
+RBI,Odisha,Debagarh,Deogarh,0.8
+RBI,Rajasthan,Dhaulpur,Dholpur,0.8

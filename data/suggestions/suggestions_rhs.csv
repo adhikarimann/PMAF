@@ -1,0 +1,47 @@
+Dataset,State,Census_District,Suggested_District,Similarity
+RHS,Uttarakhand,Udham Singh Nagar,Udam Singh Nagar,0.97
+RHS,Uttar Pradesh,Siddharthnagar,Siddharth Nagar,0.966
+RHS,Andaman and Nicobar Islands,South Andaman,South Andamans,0.963
+RHS,Odisha,Nabarangapur,Nabarangpur,0.957
+RHS,Uttarakhand,Rudraprayag,Rudra Prayag,0.957
+RHS,Uttar Pradesh,Kushinagar,Kushi Nagar,0.952
+RHS,Uttarakhand,Uttarkashi,Uttar Kashi,0.952
+RHS,Jharkhand,Saraikela-Kharsawan,Saraikela Kharsawan,0.947
+RHS,Karnataka,Davanagere,Davangere,0.947
+RHS,Rajasthan,Jhunjhunun,Jhunjhunu,0.947
+RHS,Uttar Pradesh,Bara Banki,Barabanki,0.947
+RHS,Jammu and Kashmir,Baramula,Baramulla,0.941
+RHS,Karnataka,Bagalkot,Bagalkote,0.941
+RHS,Bihar,Purba Champaran,Purbi Champaran,0.933
+RHS,Chhattisgarh,Janjgir - Champa,Janjgir-Champa,0.933
+RHS,Maharashtra,Buldana,Buldhana,0.933
+RHS,Uttarakhand,Hardwar,Haridwar,0.933
+RHS,West Bengal,Puruliya,Purulia,0.933
+RHS,Maharashtra,Gondiya,Gondia,0.923
+RHS,Meghalaya,Ribhoi,Ri Bhoi,0.923
+RHS,Andaman and Nicobar Islands,North & Middle Andaman,North And Middle Andaman,0.913
+RHS,Rajasthan,Jalor,Jalore,0.909
+RHS,West Bengal,Maldah,Malda,0.909
+RHS,Delhi,South West,South East,0.9
+RHS,Maharashtra,Ahmadnagar,Ahmednagar,0.9
+RHS,Tamil Nadu,Viluppuram,Villupuram,0.9
+RHS,Jammu and Kashmir,Bandipore,Bandipora,0.889
+RHS,Jharkhand,Sahibganj,Sahebganj,0.889
+RHS,Karnataka,Chikmagalur,Chikkamagaluru,0.88
+RHS,Assam,Morigaon,Marigaon,0.875
+RHS,Tamil Nadu,Kancheepuram,Kanchipuram,0.87
+RHS,Himachal Pradesh,Lahul & Spiti,Lahul And Spiti,0.857
+RHS,Jharkhand,Kodarma,Koderma,0.857
+RHS,Karnataka,Tumkur,Tumakuru,0.857
+RHS,West Bengal,Darjiling,Darjeeling,0.842
+RHS,Meghalaya,Jaintia Hills,East Jaintia Hills,0.839
+RHS,Jammu and Kashmir,Badgam,Budgam,0.833
+RHS,Karnataka,Shimoga,Shivamogga,0.824
+RHS,Punjab,Firozpur,Ferozepur,0.824
+RHS,Andhra Pradesh,Anantapur,Ananthapuramu,0.818
+RHS,Jammu and Kashmir,Shupiyan,Shopian,0.8
+RHS,Karnataka,Bangalore Rural,Bengaluru Rural,0.8
+RHS,Mizoram,Saiha,Siaha,0.8
+RHS,Odisha,Baudh,Boudh,0.8
+RHS,Odisha,Debagarh,Deogarh,0.8
+RHS,Rajasthan,Dhaulpur,Dholpur,0.8

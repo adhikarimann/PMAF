@@ -1,0 +1,48 @@
+Dataset,State,Census_District,Suggested_District,Similarity
+SECC,Uttarakhand,Udham Singh Nagar,Udam Singh Nagar,0.97
+SECC,Karnataka,Chamarajanagar,Chamarajanagara,0.966
+SECC,Uttar Pradesh,Siddharthnagar,Siddharth Nagar,0.966
+SECC,Andaman and Nicobar Islands,South Andaman,South Andamans,0.963
+SECC,Odisha,Nabarangapur,Nabarangpur,0.957
+SECC,Uttarakhand,Rudraprayag,Rudra Prayag,0.957
+SECC,Uttar Pradesh,Kushinagar,Kushi Nagar,0.952
+SECC,Uttarakhand,Uttarkashi,Uttar Kashi,0.952
+SECC,Jharkhand,Saraikela-Kharsawan,Saraikela Kharsawan,0.947
+SECC,Karnataka,Davanagere,Davangere,0.947
+SECC,Rajasthan,Jhunjhunun,Jhunjhunu,0.947
+SECC,Uttar Pradesh,Bara Banki,Barabanki,0.947
+SECC,Jammu and Kashmir,Baramula,Baramulla,0.941
+SECC,Karnataka,Bagalkot,Bagalkote,0.941
+SECC,Bihar,Purba Champaran,Purbi Champaran,0.933
+SECC,Chhattisgarh,Janjgir - Champa,Janjgir-Champa,0.933
+SECC,Maharashtra,Buldana,Buldhana,0.933
+SECC,Uttarakhand,Hardwar,Haridwar,0.933
+SECC,West Bengal,Puruliya,Purulia,0.933
+SECC,Maharashtra,Gondiya,Gondia,0.923
+SECC,Meghalaya,Ribhoi,Ri Bhoi,0.923
+SECC,Andaman and Nicobar Islands,North & Middle Andaman,North And Middle Andaman,0.913
+SECC,Rajasthan,Jalor,Jalore,0.909
+SECC,West Bengal,Maldah,Malda,0.909
+SECC,Maharashtra,Ahmadnagar,Ahmednagar,0.9
+SECC,Tamil Nadu,Viluppuram,Villupuram,0.9
+SECC,Jammu and Kashmir,Bandipore,Bandipora,0.889
+SECC,Jharkhand,Sahibganj,Sahebganj,0.889
+SECC,Karnataka,Chikmagalur,Chikkamagaluru,0.88
+SECC,Assam,Morigaon,Marigaon,0.875
+SECC,Rajasthan,Chittaurgarh,Chittorgarh,0.87
+SECC,Tamil Nadu,Kancheepuram,Kanchipuram,0.87
+SECC,Himachal Pradesh,Lahul & Spiti,Lahul And Spiti,0.857
+SECC,Jharkhand,Kodarma,Koderma,0.857
+SECC,Karnataka,Tumkur,Tumakuru,0.857
+SECC,West Bengal,Darjiling,Darjeeling,0.842
+SECC,Meghalaya,Jaintia Hills,East Jaintia Hills,0.839
+SECC,Jammu and Kashmir,Badgam,Budgam,0.833
+SECC,Karnataka,Shimoga,Shivamogga,0.824
+SECC,Punjab,Firozpur,Ferozepur,0.824
+SECC,Andhra Pradesh,Anantapur,Ananthapuramu,0.818
+SECC,Jammu and Kashmir,Shupiyan,Shopian,0.8
+SECC,Karnataka,Bangalore Rural,Bengaluru Rural,0.8
+SECC,Mizoram,Saiha,Siaha,0.8
+SECC,Odisha,Baudh,Boudh,0.8
+SECC,Odisha,Debagarh,Deogarh,0.8
+SECC,Rajasthan,Dhaulpur,Dholpur,0.8

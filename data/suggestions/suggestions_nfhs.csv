@@ -1,0 +1,48 @@
+Dataset,State,Census_District,Suggested_District,Similarity
+NFHS,Uttarakhand,Udham Singh Nagar,Udam Singh Nagar,0.97
+NFHS,Karnataka,Chamarajanagar,Chamarajanagara,0.966
+NFHS,Uttar Pradesh,Siddharthnagar,Siddharth Nagar,0.966
+NFHS,Andaman and Nicobar Islands,South Andaman,South Andamans,0.963
+NFHS,Odisha,Nabarangapur,Nabarangpur,0.957
+NFHS,Uttarakhand,Rudraprayag,Rudra Prayag,0.957
+NFHS,Uttar Pradesh,Kushinagar,Kushi Nagar,0.952
+NFHS,Uttarakhand,Uttarkashi,Uttar Kashi,0.952
+NFHS,Jharkhand,Saraikela-Kharsawan,Saraikela Kharsawan,0.947
+NFHS,Karnataka,Davanagere,Davangere,0.947
+NFHS,Rajasthan,Jhunjhunun,Jhunjhunu,0.947
+NFHS,Uttar Pradesh,Bara Banki,Barabanki,0.947
+NFHS,Jammu and Kashmir,Baramula,Baramulla,0.941
+NFHS,Karnataka,Bagalkot,Bagalkote,0.941
+NFHS,Bihar,Purba Champaran,Purbi Champaran,0.933
+NFHS,Chhattisgarh,Janjgir - Champa,Janjgir-Champa,0.933
+NFHS,Maharashtra,Buldana,Buldhana,0.933
+NFHS,Uttarakhand,Hardwar,Haridwar,0.933
+NFHS,West Bengal,Puruliya,Purulia,0.933
+NFHS,Maharashtra,Gondiya,Gondia,0.923
+NFHS,Meghalaya,Ribhoi,Ri Bhoi,0.923
+NFHS,Andaman and Nicobar Islands,North & Middle Andaman,North And Middle Andaman,0.913
+NFHS,Rajasthan,Jalor,Jalore,0.909
+NFHS,West Bengal,Maldah,Malda,0.909
+NFHS,Maharashtra,Ahmadnagar,Ahmednagar,0.9
+NFHS,Tamil Nadu,Viluppuram,Villupuram,0.9
+NFHS,Jammu and Kashmir,Bandipore,Bandipora,0.889
+NFHS,Jharkhand,Sahibganj,Sahebganj,0.889
+NFHS,Karnataka,Chikmagalur,Chikkamagaluru,0.88
+NFHS,Assam,Morigaon,Marigaon,0.875
+NFHS,Rajasthan,Chittaurgarh,Chittorgarh,0.87
+NFHS,Tamil Nadu,Kancheepuram,Kanchipuram,0.87
+NFHS,Himachal Pradesh,Lahul & Spiti,Lahul And Spiti,0.857
+NFHS,Jharkhand,Kodarma,Koderma,0.857
+NFHS,Karnataka,Tumkur,Tumakuru,0.857
+NFHS,West Bengal,Darjiling,Darjeeling,0.842
+NFHS,Meghalaya,Jaintia Hills,East Jaintia Hills,0.839
+NFHS,Jammu and Kashmir,Badgam,Budgam,0.833
+NFHS,Karnataka,Shimoga,Shivamogga,0.824
+NFHS,Punjab,Firozpur,Ferozepur,0.824
+NFHS,Andhra Pradesh,Anantapur,Ananthapuramu,0.818
+NFHS,Jammu and Kashmir,Shupiyan,Shopian,0.8
+NFHS,Karnataka,Bangalore Rural,Bengaluru Rural,0.8
+NFHS,Mizoram,Saiha,Siaha,0.8
+NFHS,Odisha,Baudh,Boudh,0.8
+NFHS,Odisha,Debagarh,Deogarh,0.8
+NFHS,Rajasthan,Dhaulpur,Dholpur,0.8

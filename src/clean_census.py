@@ -8,21 +8,49 @@ import pandas as pd
 # Read raw Census dataset
 census = pd.read_excel("data/raw/census.xlsx")
 
-# ----------------------------------------------------------
+# ==========================================================
+# Create State Code -> State Name Mapping
+# ==========================================================
+
+state_mapping = (
+    census[
+        (census["Level"] == "STATE") &
+        (census["TRU"] == "Total")
+    ][["State", "Name"]]
+    .drop_duplicates()
+)
+
+state_mapping.rename(
+    columns={"Name": "State_Name"},
+    inplace=True
+)
+
+# ==========================================================
 # Keep only District-level TOTAL records
-# ----------------------------------------------------------
+# ==========================================================
+
 districts = census[
     (census["Level"] == "DISTRICT") &
     (census["TRU"] == "Total")
 ].copy()
 
-# ----------------------------------------------------------
-# Select only required columns
-# ----------------------------------------------------------
+# ==========================================================
+# Merge State Names
+# ==========================================================
+
+districts = districts.merge(
+    state_mapping,
+    on="State",
+    how="left"
+)
+
+# ==========================================================
+# Select Required Columns
+# ==========================================================
+
 districts = districts[
     [
-        "State",
-        "District",
+        "State_Name",
         "Name",
         "No_HH",
         "TOT_P",
@@ -30,12 +58,14 @@ districts = districts[
     ]
 ]
 
-# ----------------------------------------------------------
-# Rename columns
-# ----------------------------------------------------------
+# ==========================================================
+# Rename Columns
+# ==========================================================
+
 districts.rename(
     columns={
-        "Name": "District_Name",
+        "State_Name": "State",
+        "Name": "District",
         "No_HH": "Households",
         "TOT_P": "Population",
         "P_LIT": "Literate_Population"
@@ -43,45 +73,56 @@ districts.rename(
     inplace=True
 )
 
-# ----------------------------------------------------------
-# Create Literacy Rate (%)
-# ----------------------------------------------------------
+# ==========================================================
+# Create Literacy Rate
+# ==========================================================
+
 districts["Literacy_Rate"] = (
     districts["Literate_Population"] /
     districts["Population"] * 100
 ).round(2)
 
-# Remove intermediate column
-districts.drop(columns=["Literate_Population"], inplace=True)
+districts.drop(
+    columns=["Literate_Population"],
+    inplace=True
+)
 
-# Reset index
 districts.reset_index(drop=True, inplace=True)
 
-# ----------------------------------------------------------
+# ==========================================================
 # Validation
-# ----------------------------------------------------------
-print("=" * 60)
+# ==========================================================
+
+print("=" * 70)
 print("CLEANED CENSUS DATASET")
-print("=" * 60)
+print("=" * 70)
 
-print("\nFirst 5 Rows:")
-print(districts.head())
+print(f"Rows    : {districts.shape[0]}")
+print(f"Columns : {districts.shape[1]}")
 
-print("\nDataset Shape:")
-print(districts.shape)
+print(f"\nUnique States    : {districts['State'].nunique()}")
+print(f"Unique Districts : {districts['District'].nunique()}")
 
-print("\nUnique States:")
-print(districts["State"].nunique())
+missing = districts.isnull().sum()
+missing = missing[missing > 0]
 
-print("Unique District Codes:")
-print(districts[["State", "District"]].drop_duplicates().shape[0])
+if missing.empty:
+    print("\nNo missing values found.")
+else:
+    print("\nMissing Values:")
+    print(missing)
 
-print("\nMissing Values:")
-print(districts.isnull().sum())
+print("\nDuplicate State-District Pairs:")
+print(
+    districts.duplicated(
+        subset=["State", "District"]
+    ).sum()
+)
 
-# ----------------------------------------------------------
-# Save cleaned dataset
-# ----------------------------------------------------------
+# ==========================================================
+# Save Cleaned Dataset
+# ==========================================================
+
 districts.to_csv(
     "data/cleaned/census_clean.csv",
     index=False
