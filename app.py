@@ -205,33 +205,35 @@ def render_footer() -> None:
     st.markdown("=" * 70)
 
 
-def render_pipeline() -> None:
-    """Render PMAF data pipeline infographic."""
+def render_pipeline():
+    """Render PMAF data pipeline."""
+
     st.subheader("PMAF Data Pipeline")
-    
-    pipeline_stages = [
-        ("Raw Data", "Census  |  NFHS  |  RHS  |  SECC  |  RBI"),
-        ("Data Cleaning", "Standardization  |  Imputation  |  Validation"),
-        ("Feature Engineering", "54 Features Engineered  |  6 Pillars"),
-        ("Normalization", "Min-Max (0-1)  |  Reverse for Poverty Proxy"),
-        ("PMAF Scoring", "Weighted Composition  |  3 Indices"),
-        ("District Ranking", "851 Districts Ranked")
+
+    stages = [
+        "📥 Raw Data",
+        "🧹 Data Cleaning",
+        "⚙️ Feature Engineering",
+        "📊 Normalization",
+        "🧮 PMAF Scoring",
+        "🏆 District Ranking"
     ]
-    
-    cols = st.columns([1, 0.2, 1] * 3)
-    
-    for idx, (stage, details) in enumerate(pipeline_stages):
-        col_idx = idx * 3
-        
-        with cols[col_idx]:
-            st.markdown(f"**{stage}**")
-            st.caption(details)
-        
-        if idx < len(pipeline_stages) - 1:
-            with cols[col_idx + 1]:
-                st.markdown("")
-                st.markdown("")
-                st.markdown("v")
+
+    descriptions = [
+        "Census | NFHS | RHS | SECC | RBI",
+        "Cleaning, validation and preprocessing",
+        "Feature creation into 6 PMAF pillars",
+        "Min-Max normalization",
+        "Weighted PMAF score computation",
+        "851 districts ranked"
+    ]
+
+    cols = st.columns(6)
+
+    for col, stage, desc in zip(cols, stages, descriptions):
+        with col:
+            st.markdown(f"### {stage}")
+            st.caption(desc)
 
 
 # =============================================================================
